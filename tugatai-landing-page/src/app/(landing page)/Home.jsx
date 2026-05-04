@@ -36,12 +36,12 @@ const Home = () => {
 
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient bg-gradient-to-r from-[#ffffff] via-[#E9D4FF] to-[#ffffff] bg-clip-text text-transparent leading-[1.1] font-inter text-center md:text-start">
-              AI Voice & Chat Agent for Business
+              Run Your Entire Customer Communication with AI
             </h1>
 
             {/* Subheading */}
             <p className="text-lg md:text-xl text-[#DBDBDB]  font-inter text-center md:text-start">
-              Automates chats, bookings, follow-ups, and customer support — 24/7
+             WhatsApp, Email, Voice, SMS & More — All in One AI Platform
             </p>
 
             {/* Buttons */}

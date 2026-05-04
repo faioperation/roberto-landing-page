@@ -98,7 +98,7 @@ const pricingPlans = [
     features: [
       "Multi-channel",
       "Up to 5,000 chats/month",
-      "Everything in Half Moon, plus:",
+      "Everything in CONNECT, plus:",
       "Advanced AI assistant",
       "CRM pipeline",
       "Full booking workflow",
@@ -118,7 +118,7 @@ const pricingPlans = [
     icon: <FullMoonIcon />,
     features: [
       "Unlimited or high-volume chats",
-      "Everything in Full Moon, plus:",
+      "Everything in CONVERT, plus:",
       "Multi-branch / multi-country",
       "Advanced workflow automation",
       "Advanced campaigns",

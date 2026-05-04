@@ -11,8 +11,11 @@ import {
   FiZap,
   FiClock,
   FiPhone,
+  FiMail,
+  FiCode,
+  FiMic,
 } from "react-icons/fi";
-import { FaWhatsapp, FaInstagram, FaTelegramPlane, FaFacebookMessenger } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaTelegramPlane, FaFacebookMessenger, FaLine, FaSms } from "react-icons/fa";
 import { LuBot } from "react-icons/lu";
 import { motion } from "framer-motion";
 
@@ -78,20 +81,26 @@ const featuresData = [
 const MultiChannelAnimation = () => {
   const iconsRow1 = [
     <FaWhatsapp className="w-5 h-5 text-white" />,
-    <FaInstagram className="w-5 h-5 text-white" />,
-    <FaTelegramPlane className="w-5 h-5 text-white" />,
     <FaFacebookMessenger className="w-5 h-5 text-white" />,
+    <FaInstagram className="w-5 h-5 text-white" />,
     <FiGlobe className="w-5 h-5 text-white" />,
-    <FiPhone className="w-5 h-5 text-white" />,
+    <FaTelegramPlane className="w-5 h-5 text-white" />,
+    <FaSms className="w-5 h-5 text-white" />,
+    <FiMail className="w-5 h-5 text-white" />,
+    <FaLine className="w-5 h-5 text-white" />,
+    <FiMic className="w-5 h-5 text-white" />,
   ];
 
   const iconsRow2 = [
+    <FaWhatsapp className="w-5 h-5 text-white" />,
     <FaFacebookMessenger className="w-5 h-5 text-white" />,
+    <FaInstagram className="w-5 h-5 text-white" />,
     <FiGlobe className="w-5 h-5 text-white" />,
     <FaTelegramPlane className="w-5 h-5 text-white" />,
-    <FiPhone className="w-5 h-5 text-white" />,
-    <FaWhatsapp className="w-5 h-5 text-white" />,
-    <FaInstagram className="w-5 h-5 text-white" />,
+    <FaSms className="w-5 h-5 text-white" />,
+    <FiMail className="w-5 h-5 text-white" />,
+    <FaLine className="w-5 h-5 text-white" />,
+    <FiMic className="w-5 h-5 text-white" />,
   ];
 
   const IconBox = ({ icon }) => (
@@ -225,7 +234,7 @@ const smallFeaturesData = [
     id: 5,
     animation: <MultiChannelAnimation />,
     title: "Multi-Channel",
-    subtitle: "WhatsApp, messanger, Insta",
+    subtitle: "WhatsApp, Messenger, Instagram, Website Chat, Telegram, SMS, Email ,API, Line, Voice AI",
   },
   {
     id: 6,
